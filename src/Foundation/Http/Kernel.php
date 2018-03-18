@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Framework\Foundation\Http;
+namespace OpenAAC\Framework\Foundation\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,7 +13,7 @@ class Kernel extends HttpKernel
      */
     protected $bootstrappers = [
         \Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
-        \pandaac\Framework\Foundation\Bootstrap\LoadConfiguration::class,
+        \OpenAAC\Framework\Foundation\Bootstrap\LoadConfiguration::class,
         \Illuminate\Foundation\Bootstrap\HandleExceptions::class,
         \Illuminate\Foundation\Bootstrap\RegisterFacades::class,
         \Illuminate\Foundation\Bootstrap\RegisterProviders::class,

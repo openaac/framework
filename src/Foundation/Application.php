@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Framework\Foundation;
+namespace OpenAAC\Framework\Foundation;
 
 use Illuminate\Foundation\Application as BaseApplication;
 

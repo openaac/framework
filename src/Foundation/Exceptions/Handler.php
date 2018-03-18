@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Framework\Foundation\Exceptions;
+namespace OpenAAC\Framework\Foundation\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

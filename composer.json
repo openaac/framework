@@ -1,24 +1,35 @@
 {
-    "name": "pandaac/framework",
+    "name": "openaac/framework",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/openaac/core/issues"
+    },
     "authors": [
         {
             "name": "Christopher Eklund",
             "email": "eklundchristopher@gmail.com"
+        },
+        {
+            "name": "Panagiotis Pagoulatos",
+            "email": "phpanos@gmail.com"
         }
     ],
     "require": {
         "fideloper/proxy": "~4.0",
         "laravel/framework": "5.6.*",
-        "pandaac/core": "self.version"
+        "openaac/core": "self.version"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.0",
+        "nunomaduro/collision": "^2.0"
     },
     "autoload": {
         "files": [
             "src/helpers.php"
         ],
         "psr-4": {
-            "pandaac\\Framework\\": "src/"
+            "OpenAAC\\Framework\\": "src/"
         }
     }
 }

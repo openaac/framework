@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Framework\Foundation\Http\Middleware;
+namespace OpenAAC\Framework\Foundation\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

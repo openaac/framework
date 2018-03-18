@@ -11,13 +11,13 @@
 |
 */
 
-$path = pandaac\Framework\Bootstrapper::rootDirectory();
+$path = OpenAAC\Framework\Bootstrapper::rootDirectory();
 
-$app = new pandaac\Core\Foundation\Application(
-    realpath($path.'/../')
+$app = new OpenAAC\Core\Foundation\Application(
+    realpath($path)
 );
 
-$app->register(pandaac\Core\Providers\PandaacServiceProvider::class);
+$app->register(OpenAAC\Core\Providers\OpenAACServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------

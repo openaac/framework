@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Framework;
+namespace OpenAAC\Framework;
 
 class Bootstrapper
 {
@@ -22,6 +22,19 @@ class Bootstrapper
         static::$root = $root;
 
         require_once __DIR__.'/../bootstrap/bootstrap.php';
+    }
+
+    /**
+     * Run the console bootstrap procedure.
+     *
+     * @param  string  $root
+     * @return void
+     */
+    public function console($root)
+    {
+        static::$root = $root;
+
+        require_once __DIR__.'/../bootstrap/console.php';
     }
 
     /**

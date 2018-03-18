@@ -1,6 +1,6 @@
 <?php
 
-namespace pandaac\Framework\Foundation\Bootstrap;
+namespace OpenAAC\Framework\Foundation\Bootstrap;
 
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Foundation\Application;
